@@ -1,8 +1,10 @@
 /* EXPRESS SERVER */
 const express = require('express')
+			cors = require('cors')
       port = 6060 || process.argv[2]
       app = express()
 
+app.use(cors())
 
 /* MONGOOSE CONNECTION */
 const mongoose = require('mongoose')
