@@ -4,3 +4,102 @@ body {
   background: #eee;
   font-family: 'Slabo 27px', serif;
 }
+
+/* TITLE */
+#main h1 {
+	color: grey;
+	text-align: center;
+}
+
+#main {
+	padding: 0px;
+	box-sizing: border-box;
+	width: 60%;
+	height: 100%;
+}
+
+/* BOOKLIST */
+#booklist {
+	padding: 0;
+}
+
+#booklist li {
+	display: inline-block;
+	margin: 12px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid teal;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+	cursor: pointer;
+	color: teal;
+}
+
+/* ADD BOOK FORM */
+form {
+	background: #fff;
+	padding: 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 400px;
+}
+
+form .field {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+form label {
+	text-align: center;
+	padding: 6px;
+
+}
+
+form select, form input {
+	margin: 4px;
+	padding: 6px;
+	box-sizing: border-box;
+}
+
+/* FORM BUTTON */
+form button {
+	color: white;
+	font-size: 1.2em;
+	background: teal;
+	border: 0;
+	padding: 0 10px;
+	/*border-radius: 10%;*/
+	cursor: pointer;
+	position: relative;
+	bottom: 10px;
+	top: 15px;
+	left: 80px;
+	width: 30%;
+}
+
+/* BOOK DETAILS */
+#book-details {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 40%;
+	height: 100%;
+	background: teal;
+	padding: 30px;
+	overflow: auto;
+	box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+	box-sizing: border-box;
+	color: #fff
+}
+
+
+
+
+
+
+
+
+
+
+
